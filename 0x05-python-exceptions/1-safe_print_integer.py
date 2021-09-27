@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 
-# A function that prints an integer with "{:b}.format()
+
 def safe_print_integer(value):
+    """
+    A function that prints an integer with
+    "{:d}".format()
+    """
     try:
         print("{:d}".format(value))
         return True
